@@ -6,7 +6,7 @@ export default function Hero() {
   const slides = [
     {
       title: "Welcome to",
-      titleHighlight: "IBADUR RAHMAN ACADEMY",
+      titleHighlight: "MARKAZUL HUDA",
       description: "Integrity, Belief, Accountability, Discipline, Unity of purpose and Responsibility are our Core Values",
       image: "/images/hero-bg.jpg"
     },
@@ -56,7 +56,7 @@ export default function Hero() {
             wordBreak: 'break-word',
             overflowWrap: 'break-word',
           }}>
-            IBADUR RAHMAN ACADEMY
+            MARKAZUL HUDA
           </h1>
           <p 
             className="lead mb-5 text-white" 

@@ -18,7 +18,7 @@ export default function Footer() {
 
   return (
     <>
-      <footer style={{ backgroundColor: '#030419', color: 'white', padding: '60px 0 30px' }}>
+      <footer style={{ backgroundColor: '#142c14', color: 'white', padding: '60px 0 30px' }}>
         <Container>
           <Row>
             {/* Logo and Contact Info */}
@@ -26,13 +26,13 @@ export default function Footer() {
               <div className="d-flex align-items-center gap-2 mb-3">
                 <Image
                   src={logo}
-                  alt='IBADUR RAHMAN ACADEMY Logo'
+                  alt='Markazul Huda Logo'
                   width={40}
                   height={40}
                   style={{ objectFit: 'contain', borderRadius: '50%' }}
                 />
                 <span style={{ color: 'white', fontWeight: 'bold', fontSize: '1.1rem' }}>
-                  Ibadur Rahman Academy
+                  Markazul Huda
                 </span>
               </div>
               <p className="text-white-50 mb-4" style={{ lineHeight: '1.6' }}>
@@ -43,15 +43,15 @@ export default function Footer() {
               <div className="mb-3">
                 <div className="d-flex align-items-center mb-2">
                   <span className="me-2">📞</span>
-                  <span>+233 24 446 7968</span>
+                  <span>+233 54 786 5221</span>
                 </div>
                 <div className="d-flex align-items-center mb-2">
                   <span className="me-2">✉️</span>
-                  <span>ibadurrahmanshs@gmail.com</span>
+                  <span>markazulhuda@gmail.com</span>
                 </div>
                 <div className="d-flex align-items-center">
                   <span className="me-2">📍</span>
-                  <span>Buobai, Kumasi, Ghana</span>
+                  <span>Adukrom, Kumasi, Ghana</span>
                 </div>
               </div>
 
@@ -94,17 +94,17 @@ export default function Footer() {
                 <div className="d-flex align-items-start mb-2">
                   <span className="me-2 mt-1">📍</span>
                   <div>
-                    <p className="mb-1 text-white">Buobai, Kumasi, Ghana</p>
-                    <p className="text-white-50 small mb-0">Asokore Mampong Municipality</p>
+                    <p className="mb-1 text-white">Adukrom, Kumasi, Ghana</p>
+                    <p className="text-white-50 small mb-0">Adukrom Municipality</p>
                   </div>
                 </div>
                 <div className="d-flex align-items-center mb-2">
                   <span className="me-2">📞</span>
-                  <span className="text-white-50">+233 24 446 7968</span>
+                  <span className="text-white-50">+233 54 786 5221</span>
                 </div>
                 <div className="d-flex align-items-center">
                   <span className="me-2">💬</span>
-                  <span className="text-white-50">ibadurrahmanshs@gmail.com</span>
+                  <span className="text-white-50">markazulhuda@gmail.com</span>
                 </div>
               </div>
 
@@ -123,7 +123,7 @@ export default function Footer() {
                   allowFullScreen=""
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Ibadur Rahman Academy Location"
+                  title="Markazul Huda Location"
                 />
               </div>
             </Col>
@@ -136,10 +136,10 @@ export default function Footer() {
         <Container>
           <Row className="align-items-center">
               <p className="mb-0 text-white-50">
-                © 2025 Ibadur Rahman Academy. <br/> All rights reserved.
+                © 2025 Markazul Huda. <br/> All rights reserved.
               </p> <br />
               <p className="mb-0 text-white-50">
-                Designed by:  <span style={{ color: 'white' }}>ICT Department</span>
+                Designed by:  <span style={{ color: 'white' }}>Kusuntu AI Lab</span>
               </p>
           </Row>
         </Container>

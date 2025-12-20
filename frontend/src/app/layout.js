@@ -4,8 +4,8 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 
 export const metadata = {
-  title: 'Ibadur Rahman Academy',
-  description: 'Welcome to Ibadur Rahman Academy, Ghana',
+  title: 'Markazul Huda',
+  description: 'Welcome to Markazul Huda, Ghana',
   icons: {
     icon: '/favicon.ico', // or .png/.svg
   },

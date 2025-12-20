@@ -7,7 +7,7 @@ import { usePathname } from 'next/navigation'
 import Image from 'next/image'
 import { useState } from 'react'
 import SearchBar from './SearchBar'
-import logo from '/public/images/logo.png' // static import
+import logo from '/public/images/logo.jpg' // static import
 
 export default function Header() {
   const pathname = usePathname()
@@ -37,13 +37,13 @@ export default function Header() {
         <Navbar.Brand as={Link} href="/" className="d-flex align-items-center gap-2">
           <Image
             src={logo}
-            alt='IBADUR RAHMAN ACADEMY Logo'
+            alt='MARKAZUL HUDA Logo'
             width={40}
             height={40}
             style={{ objectFit: 'contain', borderRadius: '50%' }}
             />
-            <span style={{ color: '#090A46', fontWeight: 'bold' }}>
-          IBADUR RAHMAN ACADEMY </span>
+            <span style={{ color: '#238b45', fontWeight: 'bold' }}>
+          MARKAZUL HUDA </span>
         </Navbar.Brand>
         
         {/* Mobile menu toggle - hidden when search is focused on obile only */}
@@ -62,7 +62,7 @@ export default function Header() {
                   className={`nav-link-responsive ${isSearchFocused ? 'd-none d-lg-block' : ''}`}
                   onClick={() => setExpanded(false)}
                   style={{
-                    color: '#090A46',
+                    color: '#238b45',
                     fontWeight: '500',
                     textDecoration: pathname === item.href ? 'underline' : 'none',
                     textUnderlineOffset: '5px'

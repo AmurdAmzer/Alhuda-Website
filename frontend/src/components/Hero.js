@@ -8,7 +8,7 @@ export default function Hero() {
       title: "Welcome to",
       titleHighlight: "MARKAZUL HUDA",
       description: "Integrity, Belief, Accountability, Discipline, Unity of purpose and Responsibility are our Core Values",
-      image: "/images/hero-bg.jpg"
+      image: "/images/Hero.jpg"
     },
     {
       title: "Excellence in",
@@ -30,7 +30,7 @@ export default function Hero() {
       style={{
         minHeight: '85vh',
         padding: '0 1rem',
-        background: 'linear-gradient(rgba(0, 20, 10, 0.80), rgba(0, 60, 10, 0.5)), url(/images/hero-bg.jpg) center/cover no-repeat',
+        background: 'linear-gradient(rgba(0, 20, 10, 0.80), rgba(0, 60, 10, 0.5)), url(/images/hero.jpg) center/cover no-repeat',
         overflowX: 'hidden',
       }}
     >
@@ -68,7 +68,7 @@ export default function Hero() {
               className="btn btn-lg px-5 py-3 position-relative"
               style={{
                 backgroundColor: 'white',
-                color: '#090A46',
+                color: '#238b45',
                 border: 'none',
                 borderRadius: '50px',
                 fontSize: '1.2rem',

@@ -36,7 +36,7 @@ export default function Home() {
     {
       id: 1,
       title: 'Certificates for 2024 Candidates Available',
-      description: 'The Ibadur Rahman Academy administration wishes to inform all 2024 graduates that their official certificates are ready for collection at the school premises. Come with a valid ID from Monday to Friday 9:00am - 3:00pm.',
+      description: 'The Markazul Huda administration wishes to inform all 2024 graduates that their official certificates are ready for collection at the school premises. Come with a valid ID from Monday to Friday 9:00am - 3:00pm.',
       image: '/images/WASSCEResults2024.jpg'
     },
     {
@@ -61,28 +61,28 @@ export default function Home() {
 
   const leadership = [
     {
-      name: 'Mr. Bashiru Shehu',
-      position: 'Headmaster',
+      name: 'Sheikh Mohammed Ibrahim',
+      position: 'Director',
       description: 'With over 15 years in educational leadership, Mr. Shehu brings vision and innovation to guide our school towards academic excellence and holistic student development.',
-      image: '/images/headmaster.jpg'
+      image: '/images/director1.jpg'
     },
     {
-      name: 'Mr. Umar Ali',
-      position: 'Assistant Headmaster',
+      name: 'Sheikh Suleman Ibrahim',
+      position: 'Head of Abrem Branch',
       description: 'A dedicated educator with expertise in curriculum development and student affairs, ensuring our academic programs meet the highest standards of quality education.',
-      image: '/images/assistant1.jpg'
+      image: '/images/mallamsule.jpg'
     },
     {
-      name: 'Mrs. Mariam Issah',
-      position: 'Assistant Headmistress',
+      name: 'Sheikh Yahya Ibrahim',
+      position: 'Head of Adukrom Branch',
       description: 'Passionate about student welfare and academic support, Mrs. Issah oversees pastoral care and creates a nurturing environment for all students to thrive.',
-      image: '/images/assistant2.jpg'
+      image: '/images/mallamyahya.jpg'
     },
     {
-      name: 'Ustaaz',
+      name: 'Mallam Abdul Mumin Jibreel',
       position: 'Imaam',
       description: 'Our spiritual guide who provides Islamic education and moral guidance, helping students develop strong character and values alongside their academic pursuits.',
-      image: '/images/ustaaz.jpg'
+      image: '/images/ustaa.jpg'
     }
   ]
 
@@ -101,8 +101,8 @@ export default function Home() {
           <Row className="align-items-center">
             <Col lg={6} md={12} className="mb-4 mb-lg-0 order-2 order-lg-1">
               <Image 
-                src="/images/about-us.jpg" 
-                alt="About Ibadur Rahman Academy" 
+                src="/images/director3.jpg" 
+                alt="About Markazul Huda" 
                 width={500}  
                 height={1000}
                 className="rounded about-image"
@@ -121,7 +121,7 @@ export default function Home() {
                     <Card.Body className="p-3.5">
                       <h3 className="text-center mb-3" style={{ color: 'var(--school-blue)'}}>History</h3>
                       <p className="mb-2 text-muted">
-                      Ibadur Rahman Academy is a public senior high school located in Buobai, Asokore Mampong Municipality, established by the Ibadur Rahman Association Inc., a non-governmental organization comprising Ghanaian Muslims residing and working in the United States. The idea to establish the school was conceived during one of their meetings in 2005, leading to fundraising efforts and land acquisition for the school project.
+                      Markazul Huda is a public senior high school located in Buobai, Asokore Mampong Municipality, established by the Ibadur Rahman Association Inc., a non-governmental organization comprising Ghanaian Muslims residing and working in the United States. The idea to establish the school was conceived during one of their meetings in 2005, leading to fundraising efforts and land acquisition for the school project.
                       </p>
                       <p className="mb-2 text-muted">
                       The school&#39;s primary mission is to provide affordable, quality secondary education to poor and needy students in Kumasi, Ashanti Region, and throughout Ghana. The founders aim to raise educational standards among Muslims by establishing educational institutions in cities and deprived areas, while sponsoring both Muslim and non-Muslim children to pursue higher education.

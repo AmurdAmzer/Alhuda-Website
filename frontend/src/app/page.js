@@ -111,10 +111,18 @@ export default function Home() {
                     <Card.Body className="p-3.5">
                       <h3 className="text-center mb-3" style={{ color: 'var(--school-blue)'}}>History</h3>
                       <p className="mb-2 text-muted">
-                      Markazul Huda is a public senior high school located in Buobai, Asokore Mampong Municipality, established by the Ibadur Rahman Association Inc., a non-governmental organization comprising Ghanaian Muslims residing and working in the United States. The idea to establish the school was conceived during one of their meetings in 2005, leading to fundraising efforts and land acquisition for the school project.
+                      Markazul Huda is a basic school with locations in Adukrom and Abrem, Kumasi, established by IQRA Foundation, a non-governmental organization comprising Muslims residing and working in Saudi Arabia. The idea to establish the school was conceived during one of their meetings in 2005, leading to fundraising efforts and land acquisition for the school project.
                       </p>
                       <p className="mb-2 text-muted">
-                      The school&#39;s primary mission is to provide affordable, quality secondary education to poor and needy students in Kumasi, Ashanti Region, and throughout Ghana. The founders aim to raise educational standards among Muslims by establishing educational institutions in cities and deprived areas, while sponsoring both Muslim and non-Muslim children to pursue higher education.
+                      The school&#39;s primary mission is to provide affordable, quality secondary education to poor and needy students in Kumasi, Ashanti Region, and throughout Ghana. 
+                      </p>
+
+                      <p className="mb-2 text-muted">
+                      lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      </p>
+
+                      <p className="mb-2 text-muted">
+                      lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                       </p>
                     </Card.Body>
                   </Card>

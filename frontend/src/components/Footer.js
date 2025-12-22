@@ -1,7 +1,7 @@
 'use client'
 
 import { Container, Row, Col } from 'react-bootstrap'
-import logo from '/public/images/logo.png'
+import logo from '/public/images/logo.jpg'
 import Image from 'next/image'
 import Link from 'next/link'
 

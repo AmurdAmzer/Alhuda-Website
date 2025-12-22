@@ -25,21 +25,21 @@ export default function Home() {
   const newsArticles = [
     {
       id: 1,
-      title: 'Certificates for 2024 Candidates Available',
-      description: 'The Markazul Huda administration wishes to inform all 2024 graduates that their official certificates are ready for collection at the school premises. Come with a valid ID from Monday to Friday 9:00am - 3:00pm.',
-      image: '/images/WASSCEResults2024.jpg'
+      title: 'Graduation Ceremony',
+      description: 'Markazul Huda held a graduation ceremony for the 20XY students who completed their XYZ education.',
+      image: '/images/Graduation1.jpg'
     },
     {
       id: 2,
       title: 'Academic Excellence Awards 2025',
       description: 'Celebrating outstanding academic achievements of our students. Join us as we recognize the hard work and dedication of our brilliant minds.',
-      image: '/images/news2.jpg'
+      image: '/images/Graduation2.jpg'
     },
     {
       id: 3,
       title: 'Sports Day Success',
       description: 'Our annual sports day was a tremendous success with students showcasing their athletic abilities and team spirit.',
-      image: '/images/news3.jpg'
+      image: '/images/Iftaar1.jpg'
     }
   ]
 

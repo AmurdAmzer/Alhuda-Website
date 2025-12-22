@@ -13,12 +13,12 @@ export default function Home() {
     {
       icon: '🔬',
       title: 'Monday to Friday',
-      description: 'Preparing future doctors, engineers, and scientists through comprehensive study of Biology, Chemistry, Physics, and Mathematics.'
+      description: 'Arabic and English Section which has the students studying Arabic and Islamic Studies in the morning, and circular education after.'
     },
     {
       icon: '📚',
       title: 'Saturday and Sunday',
-      description: 'Developing critical thinkers and communicators through Literature, History, Geography, Economics, and Languages.'
+      description: 'This is designed for students who are not able to attend the Monday to Friday section because their parents sent them to different schools.'
     }
   ]
 
@@ -31,18 +31,12 @@ export default function Home() {
     },
     {
       id: 2,
-      title: 'SRC Week Celebration',
-      description: 'Welcome to Ibadur Rahman School, where we nurture curiosity and foster a love for learning. Join us in our mission to create a supportive environment that inspires students to achieve their full potential.',
-      image: '/images/news1.jpg'
-    },
-    {
-      id: 3,
       title: 'Academic Excellence Awards 2025',
       description: 'Celebrating outstanding academic achievements of our students. Join us as we recognize the hard work and dedication of our brilliant minds.',
       image: '/images/news2.jpg'
     },
     {
-      id: 4,
+      id: 3,
       title: 'Sports Day Success',
       description: 'Our annual sports day was a tremendous success with students showcasing their athletic abilities and team spirit.',
       image: '/images/news3.jpg'
@@ -111,14 +105,22 @@ export default function Home() {
                     <Card.Body className="p-3.5">
                       <h3 className="text-center mb-3" style={{ color: 'var(--school-blue)'}}>History</h3>
                       <p className="mb-2 text-muted">
-                      Markazul Huda is a basic school with locations in Adukrom and Abrem, Kumasi, established by IQRA Foundation, a non-governmental organization comprising Muslims residing and working in Saudi Arabia. The idea to establish the school was conceived during one of their meetings in 2005, leading to fundraising efforts and land acquisition for the school project.
+                      Markazul Huda is a basic school with locations in Adukrom and Abrem, Kumasi, established by IQRA Foundation, a non-governmental organization comprising Muslims residing and working in Saudi Arabia.
                       </p>
                       <p className="mb-2 text-muted">
                       The school&#39;s primary mission is to provide affordable, quality secondary education to poor and needy students in Kumasi, Ashanti Region, and throughout Ghana. 
                       </p>
 
+                      <p className="mb-2" style={{ color: '#238b45', fontWeight: '700' }}>
+                        Mission
+                      </p>
+
                       <p className="mb-2 text-muted">
                       lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      </p>
+
+                      <p className="mb-2" style={{ color: '#238b45', fontWeight: '700' }}>
+                        Vision
                       </p>
 
                       <p className="mb-2 text-muted">
@@ -136,9 +138,9 @@ export default function Home() {
       {/* Our Departments Section */}
       <section className="py-5" >
         <Container className="px-4 px-md-0">
-          <h2 className="text-center mb-3" style={{background: 'linear-gradient(to right, transparent, var(--school-blue), transparent) no-repeat bottom', backgroundSize: '80% 3px', paddingBottom: '15px', width: 'fit-content', margin: '0 auto 1rem auto'}}>Our Departments</h2>
+          <h2 className="text-center mb-3" style={{background: 'linear-gradient(to right, transparent, var(--school-blue), transparent) no-repeat bottom', backgroundSize: '80% 3px', paddingBottom: '15px', width: 'fit-content', margin: '0 auto 1rem auto'}}>Departments</h2>
           <p className="text-center text-muted mb-5 px-3">
-          Explore our diverse academic programs designed to nurture every student's potential and prepare them for successful futures.
+          Explore our diverse departments designed to nurture every student's potential and prepare them for successful futures.
           </p>
           <Row className="justify-content-center">
             {departments.map((dept, index) => (

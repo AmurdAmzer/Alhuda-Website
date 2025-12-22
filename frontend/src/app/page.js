@@ -12,23 +12,13 @@ export default function Home() {
   const departments = [
     {
       icon: '🔬',
-      title: 'General Science',
+      title: 'Monday to Friday',
       description: 'Preparing future doctors, engineers, and scientists through comprehensive study of Biology, Chemistry, Physics, and Mathematics.'
     },
     {
       icon: '📚',
-      title: 'General Arts',
+      title: 'Saturday and Sunday',
       description: 'Developing critical thinkers and communicators through Literature, History, Geography, Economics, and Languages.'
-    },
-    {
-      icon: '🎨',
-      title: 'Visual Arts',
-      description: 'Nurturing creative talent through Graphic Design, Textiles, Ceramics, Picture Making, and Art.'
-    },
-    {
-      icon: '🏠',
-      title: 'Home Economics',
-      description: 'Developing essential life skills through practical learning in nutrition, textiles, and home management.'
     }
   ]
 
@@ -63,7 +53,7 @@ export default function Home() {
     {
       name: 'Sheikh Mohammed Ibrahim',
       position: 'Director',
-      description: 'With over 15 years in educational leadership, Mr. Shehu brings vision and innovation to guide our school towards academic excellence and holistic student development.',
+      description: 'With over 15 years in educational leadership, Sheikh Mohammed brings vision and innovation to guide our school towards academic excellence and holistic student development.',
       image: '/images/director1.jpg'
     },
     {
@@ -101,7 +91,7 @@ export default function Home() {
           <Row className="align-items-center">
             <Col lg={6} md={12} className="mb-4 mb-lg-0 order-2 order-lg-1">
               <Image 
-                src="/images/director3.jpg" 
+                src="/images/director.jpg" 
                 alt="About Markazul Huda" 
                 width={500}  
                 height={1000}
@@ -129,30 +119,6 @@ export default function Home() {
                     </Card.Body>
                   </Card>
                 </Col>
-                
-                {/* Vision Card */}
-                <Col md={6} className="mb-4">
-                  <Card className="h-100 text-center border-0 shadow">
-                    <Card.Body className="p-4">
-                      <h3 className="mb-3" style={{ color: 'var(--school-blue)' }}>Vision</h3>
-                      <p className="text-muted">
-                      A thriving academy of choice, excelling beyond Ghana to be one of the outstanding academic institutions in the areas of sciences, arts and sports
-                      </p>
-                    </Card.Body>
-                  </Card>
-                </Col>
-                
-                {/* Mission Card */}
-                <Col md={6} className="mb-4">
-                  <Card className="h-100 text-center border-0 shadow">
-                    <Card.Body className="p-4">
-                      <h3 className="mb-3" style={{ color: 'var(--school-blue)' }}>Mission</h3>
-                      <p className="text-muted">
-                        To motivate the development of a holistic sense of self by belonging to an academy which values excellence, creativity and responsible citizenry. 
-                      </p>
-                    </Card.Body>
-                  </Card>
-                </Col>
               </Row>
             </Col>
           </Row>
@@ -160,15 +126,15 @@ export default function Home() {
       </section>
 
       {/* Our Departments Section */}
-      <section className="py-5" style={{backgroundColor: '#DEECFF'}} >
+      <section className="py-5" >
         <Container className="px-4 px-md-0">
           <h2 className="text-center mb-3" style={{background: 'linear-gradient(to right, transparent, var(--school-blue), transparent) no-repeat bottom', backgroundSize: '80% 3px', paddingBottom: '15px', width: 'fit-content', margin: '0 auto 1rem auto'}}>Our Departments</h2>
           <p className="text-center text-muted mb-5 px-3">
           Explore our diverse academic programs designed to nurture every student's potential and prepare them for successful futures.
           </p>
-          <Row>
+          <Row className="justify-content-center">
             {departments.map((dept, index) => (
-              <Col lg={3} md={6} className="mb-4" key={index}>
+              <Col lg={5} md={6} className="mb-4" key={index}>
                 <Card className="h-100 text-center border-0 shadow">
                   <Card.Body className="p-4">
                     <div className="mb-3" style={{ fontSize: '3rem' }}>{dept.icon}</div>
@@ -194,7 +160,7 @@ export default function Home() {
       </section>
 
       {/* News and Articles Section - Carousel */}
-      <section className="py-5" style={{backgroundColor: '#090A46'}}>
+      <section className="py-5" >
         <Container >
           <h2 className="text-center mb-5 text-white" style={{background: 'linear-gradient(to right, transparent, var(--school-blue), transparent) no-repeat bottom', backgroundSize: '100% 3px', paddingBottom: '15px', width: 'fit-content', margin: '0 auto 1rem auto'}}>News & Gallery</h2>
           <Row>
@@ -242,7 +208,7 @@ export default function Home() {
       {/* Our Leadership Section */}
       <section className="py-5">
         <Container className="px-4 px-md-0">
-          <h2 className="text-center mb-3" style={{background: 'linear-gradient(to right, transparent, var(--school-blue), transparent) no-repeat bottom', backgroundSize: '80% 3px', paddingBottom: '15px', width: 'fit-content', margin: '0 auto 1rem auto'}}>Our Leadership</h2>
+          <h2 className="text-center mb-3" style={{background: 'linear-gradient(to right, transparent, transparent) no-repeat bottom', backgroundSize: '80% 3px', paddingBottom: '15px', width: 'fit-content', margin: '0 auto 1rem auto'}}>Our Leadership</h2>
           <p className="text-center text-muted mb-5 px-3">
           Meet our dedicated team of experienced educators and administrators committed to academic excellence and student success.
           </p>

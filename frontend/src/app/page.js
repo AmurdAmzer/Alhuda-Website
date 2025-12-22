@@ -242,7 +242,7 @@ export default function Home() {
                       }}
                     />
                     <h5 className="mb-1">{leader.name}</h5>
-                    <p className="text-primary mb-3">{leader.position}</p>
+                    <p className="mb-3" style={{ color: '#D4AF37' }}>{leader.position}</p>
                     <p className="text-muted small">{leader.description}</p>
                   </Card.Body>
                 </Card>

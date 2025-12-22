@@ -162,7 +162,7 @@ export default function AboutUsPage() {
                       }}
                     />
                     <h5 className="mb-1">{leader.name}</h5>
-                    <p className="text-primary mb-3">{leader.position}</p>
+                    <p className="mb-3 founder-position">{leader.position}</p>
                     <p className="text-muted small">{leader.description}</p>
                   </Card.Body>
                 </Card>

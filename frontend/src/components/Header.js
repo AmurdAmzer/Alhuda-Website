@@ -11,6 +11,7 @@ import logo from '/public/images/logo.jpg' // static import
 
 export default function Header() {
   const pathname = usePathname()
+  console.log('Current pathname:', pathname)
   const [expanded, setExpanded] = useState(false)
   const [isSearchFocused, setIsSearchFocused] = useState(false);
   
@@ -56,20 +57,14 @@ export default function Header() {
             <Nav className="ms-auto">
               {navItems.map((item) => (
                 <Nav.Link
-                  key={item.label}
-                  as={Link}
-                  href={item.href}
-                  className={`nav-link-responsive ${isSearchFocused ? 'd-none d-lg-block' : ''}`}
-                  onClick={() => setExpanded(false)}
-                  style={{
-                    color: '#238b45',
-                    fontWeight: '500',
-                    textDecoration: pathname === item.href ? 'underline' : 'none',
-                    textUnderlineOffset: '5px'
-                  }}
-                >
-                  {item.label}
-                </Nav.Link>
+                key={item.label}
+                as={Link}
+                href={item.href}
+                className={`nav-link-responsive ${pathname === item.href ? 'active-link' : ''} ${isSearchFocused ? 'd-none d-lg-block' : ''}`}
+                onClick={() => setExpanded(false)}
+              >
+                {item.label}
+              </Nav.Link>
               ))}
             </Nav>
 

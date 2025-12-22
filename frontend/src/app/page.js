@@ -169,10 +169,10 @@ export default function Home() {
         </Container>
       </section>
 
-      {/* News and Articles Section - Carousel */}
+      {/* News and Gallery Section - Carousel */}
       <section className="py-5" >
         <Container >
-          <h2 className="text-center mb-5 text-white" style={{background: 'linear-gradient(to right, transparent, var(--school-blue), transparent) no-repeat bottom', backgroundSize: '100% 3px', paddingBottom: '15px', width: 'fit-content', margin: '0 auto 1rem auto'}}>News & Gallery</h2>
+        <h2 className="text-center mb-3" style={{background: 'linear-gradient(to right, transparent, var(--school-blue), transparent) no-repeat bottom', backgroundSize: '80% 3px', paddingBottom: '15px', width: 'fit-content', margin: '0 auto 1rem auto'}}>News and Gallery</h2>
           <Row>
             <Col lg={10} className="mx-auto">
               <Carousel indicators={true} controls={true} interval={5000}>
@@ -215,10 +215,10 @@ export default function Home() {
         </Container>
       </section>
 
-      {/* Our Leadership Section */}
+      {/* Founders Section */}
       <section className="py-5">
         <Container className="px-4 px-md-0">
-          <h2 className="text-center mb-3" style={{background: 'linear-gradient(to right, transparent, transparent) no-repeat bottom', backgroundSize: '80% 3px', paddingBottom: '15px', width: 'fit-content', margin: '0 auto 1rem auto'}}>Our Leadership</h2>
+        <h2 className="text-center mb-3" style={{background: 'linear-gradient(to right, transparent, var(--school-blue), transparent) no-repeat bottom', backgroundSize: '80% 3px', paddingBottom: '15px', width: 'fit-content', margin: '0 auto 1rem auto'}}>Founders</h2>
           <p className="text-center text-muted mb-5 px-3">
           Meet our dedicated team of experienced educators and administrators committed to academic excellence and student success.
           </p>

@@ -1,32 +1,33 @@
 'use client';
 
 import { Container, Row, Col, Card } from 'react-bootstrap';
+import Image from 'next/image';
 
 export default function AboutUsPage() {
-    const leadership = [
+  const leadership = [
         {
-          name: 'Mr. Bashiru Shehu',
-          position: 'Headmaster',
-          description: 'With over 15 years in educational leadership, Mr. Shehu brings vision and innovation to guide our school towards academic excellence and holistic student development.',
-          image: '/images/headmaster.jpg'
+          name: 'Sheikh Mohammed Ibrahim',
+          position: 'Director',
+          description: 'With over 15 years in educational leadership, Sheikh Mohammed brings vision and innovation to guide our school towards academic excellence and holistic student development.',
+          image: '/images/Director1.jpg'
         },
         {
-          name: 'Mr. Umar Ali',
-          position: 'Assistant Headmaster',
+          name: 'Sheikh Suleman Ibrahim',
+          position: 'Head of Abrem Branch',
           description: 'A dedicated educator with expertise in curriculum development and student affairs, ensuring our academic programs meet the highest standards of quality education.',
-          image: '/images/assistant1.jpg'
+          image: '/images/MallamSule.jpg'
         },
         {
-          name: 'Mrs. Mariam Issah',
-          position: 'Assistant Headmistress',
+          name: 'Sheikh Yahya Ibrahim',
+          position: 'Head of Adukrom Branch',
           description: 'Passionate about student welfare and academic support, Mrs. Issah oversees pastoral care and creates a nurturing environment for all students to thrive.',
-          image: '/images/assistant2.jpg'
+          image: '/images/MallamYahya.jpg'
         },
         {
-          name: 'Ustaaz',
+          name: 'Mallam Abdul Mumin Jibreel',
           position: 'Imaam',
           description: 'Our spiritual guide who provides Islamic education and moral guidance, helping students develop strong character and values alongside their academic pursuits.',
-          image: '/images/ustaaz.jpg'
+          image: '/images/ustaa.jpg'
         }
       ]
     
@@ -34,7 +35,7 @@ export default function AboutUsPage() {
   return (
     <>
       {/* About Us Section */}
-      <section className="py-5" style={{backgroundColor: '#e9ecef'}}>
+      <section className="py-5" style={{ backgroundColor: '#e8f5e9' }}>
             <Container className="px-4 px-md-0">
               <h2 className="text-center mb-3" style={{background: 'linear-gradient(to right, transparent, var(--school-blue), transparent) no-repeat bottom', backgroundSize: '80% 3px', paddingBottom: '15px', width: 'fit-content', margin: '0 auto 1rem auto'}}>About Us</h2>
               <p className="text-center text-muted mb-5 px-3">
@@ -47,16 +48,18 @@ export default function AboutUsPage() {
         <Container className="px-3 px-md-0">
           <Row className="align-items-stretch">
             <Col lg={6} md={12} className="mb-4 mb-lg-0 order-2 order-lg-1">
-                <img 
-                    src="/images/about-us.jpg" 
-                    alt="About Ibadur Rahman Academy" 
-                    className="img-fluid rounded about-image"
-                    style={{ 
-                    width: '100%', 
-                    height: 'auto',
-                    objectFit: 'cover',
-                    }}
-                />
+            <Image 
+                src="/images/Director.jpg" 
+                alt="About Markazul Huda" 
+                width={500}  
+                height={1000}
+                className="rounded about-image"
+                style={{ 
+                  width: '100%', 
+                  height: 'auto',
+                  objectFit: 'cover',
+                }}
+              />
             </Col>
 
             <Col lg={6} md={12} className="order-1 order-lg-2">
@@ -64,21 +67,29 @@ export default function AboutUsPage() {
                 {/* History Card */}
                 <Col md={12} className="mb-4">
                   <Card className="h-100 text-center border-0 shadow">
-                    <Card.Body className="p-4">
-                      <h2 className="text-center mb-3" style={{ color: 'var(--school-blue)'}}>
-                        History
-                      </h2>
+                    <Card.Body className="p-3.5">
+                      <h3 className="text-center mb-3" style={{ color: 'var(--school-blue)'}}>History</h3>
                       <p className="mb-2 text-muted">
-                      Ibadur Rahman Academy is a public senior high school located in Buobai, Asokore Mampong Municipality, established by the Ibadur Rahman Association Inc., a non-governmental organization comprising Ghanaian Muslims residing and working in the United States. The idea to establish the school was conceived during one of their meetings in 2005, leading to fundraising efforts and land acquisition for the school project.
+                      Markazul Huda is a basic school with locations in Adukrom and Abrem, Kumasi, established by IQRA Foundation, a non-governmental organization comprising Muslims residing and working in Saudi Arabia.
                       </p>
                       <p className="mb-2 text-muted">
-                      The school&#39;s primary mission is to provide affordable, quality secondary education to poor and needy students in Kumasi, Ashanti Region, and throughout Ghana. The founders aim to raise educational standards among Muslims by establishing educational institutions in cities and deprived areas, while sponsoring both Muslim and non-Muslim children to pursue higher education.
+                      The school&#39;s primary mission is to provide affordable, quality secondary education to poor and needy students in Kumasi, Ashanti Region, and throughout Ghana. 
                       </p>
-                      <p className="mb-2 text-muted">
-                      The academy addresses the need for affordable education, giving Muslim parents who cannot afford high public school fees access to quality secondary education at lower costs. Additionally, it enables Muslim students to obtain knowledge about their religion alongside formal secular education.
+
+                      <p className="mb-2" style={{ color: '#238b45', fontWeight: '700' }}>
+                        Mission
                       </p>
+
                       <p className="mb-2 text-muted">
-                      Registered with Ghana Education Service in 2012 (Registration: AR/KM-K/S.H.S/P1068), the school officially began operations in the 2013/2014 academic year. It has been led by Mr. Alhaji A.A. Darmanu, Madam Nima Abdul Rahman (resigned 2019), and Abdul Jamal Adam (until January 2022). The school holds West African School Certificate Examination Centre Number 0051610.
+                      lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      </p>
+
+                      <p className="mb-2" style={{ color: '#238b45', fontWeight: '700' }}>
+                        Vision
+                      </p>
+
+                      <p className="mb-2 text-muted">
+                      lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                       </p>
                     </Card.Body>
                   </Card>
@@ -136,7 +147,7 @@ export default function AboutUsPage() {
         </section>
 
         {/* Founders Section */}
-        <section className="py-5" style={{backgroundColor: '#e9ecef'}}>
+        <section className="py-5" style={{ backgroundColor: '#e8f5e9' }}>
         <Container className="px-4 px-md-0">
           <h2 className="text-center mb-3" style={{background: 'linear-gradient(to right, transparent, var(--school-blue), transparent) no-repeat bottom', backgroundSize: '80% 3px', paddingBottom: '15px', width: 'fit-content', margin: '0 auto 1rem auto'}}>Our Founders</h2>
           <p className="text-center text-muted mb-5 px-3">
@@ -174,7 +185,7 @@ export default function AboutUsPage() {
 
       {/* School Anthem */}
 
-      <section className="py-5">
+     {/*  <section className="py-5">
         <Container className="px-3 px-md-0">
             <Row className="text-center mb-4">
                 <h2 className="text-center mb-3" style={{
@@ -189,7 +200,7 @@ export default function AboutUsPage() {
             </Row>
           <Row className="align-items-stretch">
             {/* School Anthem Text*/}
-                <Col lg={6} md={12} className="order-1 order-lg-1 mb-4 text-center">
+               {/*  <Col lg={6} md={12} className="order-1 order-lg-1 mb-4 text-center">
                 <h2 className="text-center mb-3" style={{ color: 'var(--school-blue)'}}>
                         Anthem
                 </h2>
@@ -231,7 +242,7 @@ export default function AboutUsPage() {
                 </Col>
           </Row>
         </Container>
-      </section>
+      </section> } */}
     </>
   );
 }

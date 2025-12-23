@@ -66,7 +66,7 @@ export default function Home() {
       name: 'Mallam Abdul Mumin Jibreel',
       position: 'Imaam',
       description: 'Our spiritual guide who provides Islamic education and moral guidance, helping students develop strong character and values alongside their academic pursuits.',
-      image: '/images/ustaa.jpg'
+      image: '/images/Placeholder.jpg'
     }
   ]
 

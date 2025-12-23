@@ -50,9 +50,9 @@ export default function SearchBar({ onSearchFocus, onNavigate }) {
     { title: 'Home Economics', type: 'department', url: '/academic', description: 'Nutrition, textiles, and home management' },
     
     // Staff
-    { title: 'Mr. Bashiru Shehu', type: 'staff', url: '/staff', description: 'Headmaster - Educational leadership and innovation' },
-    { title: 'Mr. Umar Ali', type: 'staff', url: '/staff', description: 'Assistant Headmaster - Curriculum development' },
-    { title: 'Mrs. Mariam Issah', type: 'staff', url: '/staff', description: 'Assistant Headmistress - Student welfare' },
+    { title: 'Mohammed', type: 'staff', url: '/staff', description: 'Headmaster - Educational leadership and innovation' },
+    { title: 'Yahya', type: 'staff', url: '/staff', description: 'Assistant Headmaster - Curriculum development' },
+    { title: 'Suleman', type: 'staff', url: '/staff', description: 'Assistant Headmistress - Student welfare' },
     
     // General terms
     { title: 'Admissions', type: 'info', url: '/contact-us', description: 'Information about school admission requirements' },

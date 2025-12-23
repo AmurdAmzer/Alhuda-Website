@@ -44,7 +44,7 @@ export default function ContactUsPage() {
         subject: formData.subject,
         category: formData.category,
         message: formData.message,
-        to_name: 'Ibadur Rahman Academy',
+        to_name: 'Markazul Huda',
       }
   
       const response = await emailjs.send(serviceID, templateID, templateParams, userID)
@@ -79,22 +79,22 @@ export default function ContactUsPage() {
     {
       icon: '📍',
       title: 'Address',
-      details: ['Ibadur Rahman Academy', 'Buobai, Asokore Mampong Municipality', 'Kumasi, Ashanti Region', 'Ghana - West Africa']
+      details: ['Markazul Huda', 'Adukrom, Asokore Mampong Municipality', 'Kumasi, Ashanti Region', 'Ghana - West Africa']
     },
     {
       icon: '📞',
       title: 'Phone Numbers',
-      details: ['+233 32 xxxx xx', '+233 24 446 7968', '+233 24 401 2052']
+      details: ['+233 54 786 5221', '+233 24 495 7163', '+233 24 420 5695']
     },
     {
       icon: '✉️',
       title: 'Email Addresses',
-      details: ['ibadurrahmanacademyges@gmail.com', 'ibadurrahmanacademy.edu.gh']
+      details: ['markazulhuda@gmail.com', 'markazulhuda.edu.gh']
     },
     {
       icon: '💬',
       title: 'WhatsApp',
-      details: ['+233 24 446 7968', 'Quick responses for urgent matters']
+      details: ['+233 54 786 5221', 'Quick responses for urgent matters']
     }
   ]
 
@@ -113,13 +113,13 @@ export default function ContactUsPage() {
   return (
     <>
       {/* Contact Header */}
-      <section className="py-5" style={{backgroundColor: '#e9ecef'}}>
+      <section className="py-5" style={{backgroundColor: '#e8f5e9'}}>
         <Container>
           <h2 className="text-center mb-3" style={{background: 'linear-gradient(to right, transparent, var(--school-blue), transparent) no-repeat bottom', backgroundSize: '80% 3px', paddingBottom: '15px', width: 'fit-content', margin: '0 auto 1rem auto'}}>
             Contact Us
           </h2>
           <p className="text-center text-muted mb-5 px-3">
-            We&apos;re here to help! Reach out to us for admissions, general inquiries, or any questions about Ibadur Rahman Academy.
+            We&apos;re here to help! Reach out to us for admissions, general inquiries, or any questions about Markazul Huda.
           </p>
         </Container>
       </section>
@@ -305,7 +305,7 @@ export default function ContactUsPage() {
       </section>
 
       {/* Office Hours & Map Section */}
-      <section className="py-5" style={{backgroundColor: '#e9ecef'}}>
+      <section className="py-5" style={{backgroundColor: '#e8f5e9'}}>
         <Container>
           <Row>
             {/* Office Hours */}
@@ -336,13 +336,13 @@ export default function ContactUsPage() {
                 <Card.Body className="p-0">
                   <div style={{ height: '350px', borderRadius: '0.375rem', overflow: 'hidden' }}>
                     <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15849.67103172481!2d-1.558798682690602!3d6.718768380893207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdb9509b166bca1%3A0x7fa6a31c71559e76!2sIbadur%20Rahman%20Academy%20SHS!5e0!3m2!1sen!2sus!4v1749491156930!5m2!1sen!2sus" width="100%"
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7925.217819152831!2d-1.5906571999999999!3d6.69526485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdb942fa5751e05%3A0x9054a5ee6b0b9241!2sAdukrom%2C%20Kumasi%2C%20Ghana!5e0!3m2!1sen!2sus!4v1766511110962!5m2!1sen!2sus" width="100%"
                       height="350"
                       style={{ border: 0 }}
                       allowFullScreen=""
                       loading="lazy"
                       referrerPolicy="no-referrer-when-downgrade"
-                      title="Ibadur Rahman Academy Location"
+                      title="Markazul Huda Location"
                     />
                   </div>
                 </Card.Body>
@@ -361,7 +361,7 @@ export default function ContactUsPage() {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-5" style={{backgroundColor: '#e9ecef'}}>
+      <section className="py-5" style={{backgroundColor: '#e8f5e9'}}>
         <Container>
           <h3 className="text-center mb-5" style={{ color: 'var(--school-blue)' }}>
             Frequently Asked Questions
@@ -376,7 +376,7 @@ export default function ContactUsPage() {
                         What are the admission requirements?
                       </h6>
                       <p className="text-muted small mb-0">
-                        Students need to pass the BECE and meet our entrance requirements. Contact our admissions office for detailed information.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl eros, pulvinar facilisis justo mollis, auctor consequat urna.
                       </p>
                     </Card.Body>
                   </Card>
@@ -388,7 +388,7 @@ export default function ContactUsPage() {
                         Do you offer boarding facilities?
                       </h6>
                       <p className="text-muted small mb-0">
-                        Yes, we provide both boarding and day school options. Our dormitories are modern and well-equipped for student comfort.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl eros, pulvinar facilisis justo mollis, auctor consequat urna.
                       </p>
                     </Card.Body>
                   </Card>
@@ -400,7 +400,7 @@ export default function ContactUsPage() {
                         What programs do you offer?
                       </h6>
                       <p className="text-muted small mb-0">
-                        We offer General Science, General Arts, Visual Arts, and Home Economics programs at the senior high school level.
+                       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl eros, pulvinar facilisis justo mollis, auctor consequat urna.
                       </p>
                     </Card.Body>
                   </Card>
@@ -412,7 +412,7 @@ export default function ContactUsPage() {
                         How can I schedule a school visit?
                       </h6>
                       <p className="text-muted small mb-0">
-                        Contact our admissions office to schedule a tour. We welcome prospective students and parents to visit our campus.
+                        lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl eros, pulvinar facilisis justo mollis, auctor consequat urna.
                       </p>
                     </Card.Body>
                   </Card>

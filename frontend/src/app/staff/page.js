@@ -4,92 +4,92 @@ import { Container, Row, Col, Card } from 'react-bootstrap';
 
 export default function StaffPage() {
     const managementTeam = [
-        {
-          name: 'Mr. Bashiru Shehu',
-          position: 'Headmaster',
-          description: 'With over 15 years in educational leadership, Mr. Shehu brings vision and innovation to guide our school towards academic excellence and holistic student development.',
-          image: '/images/headmaster.jpg'
-        },
-        {
-          name: 'Mr. Umar Ali',
-          position: 'Assistant Headmaster',
-          description: 'A dedicated educator with expertise in curriculum development and student affairs, ensuring our academic programs meet the highest standards of quality education.',
-          image: '/images/assistant1.jpg'
-        },
-        {
-          name: 'Mrs. Mariam Issah',
-          position: 'Assistant Headmistress',
-          description: 'Passionate about student welfare and academic support, Mrs. Issah oversees pastoral care and creates a nurturing environment for all students to thrive.',
-          image: '/images/assistant2.jpg'
-        },
-        {
-          name: 'Ustaaz',
-          position: 'Imaam',
-          description: 'Our spiritual guide who provides Islamic education and moral guidance, helping students develop strong character and values alongside their academic pursuits.',
-          image: '/images/ustaaz.jpg'
-        }
+      {
+        name: 'Sheikh Mohammed Ibrahim',
+        position: 'Director',
+        description: 'With over 15 years in educational leadership, Sheikh Mohammed brings vision and innovation to guide our school towards academic excellence and holistic student development.',
+        image: '/images/Director1.jpg'
+      },
+      {
+        name: 'Sheikh Suleman Ibrahim',
+        position: 'Head of Abrem Branch',
+        description: 'A dedicated educator with expertise in curriculum development and student affairs, ensuring our academic programs meet the highest standards of quality education.',
+        image: '/images/MallamSule.jpg'
+      },
+      {
+        name: 'Sheikh Yahya Ibrahim',
+        position: 'Head of Adukrom Branch',
+        description: 'Passionate about student welfare and academic support, Mrs. Issah oversees pastoral care and creates a nurturing environment for all students to thrive.',
+        image: '/images/MallamYahya.jpg'
+      },
+      {
+        name: 'Mallam Abdul Mumin Jibreel',
+        position: 'Imaam',
+        description: 'Our spiritual guide who provides Islamic education and moral guidance, helping students develop strong character and values alongside their academic pursuits.',
+        image: '/images/ustaa.jpg'
+      }
     ];
 
     const teachingStaff = [
-        {
-          name: 'Mr. Saeed Sualeh',
-          position: 'Mathematics Teacher',
-          description: 'Specialized in advanced mathematics with 8 years of teaching experience, helping students excel in mathematical concepts and problem-solving.',
-          image: '/images/rahma.jpg'
-        },
-        {
-          name: 'Mr. Kamilu',
-          position: 'Science Teacher',
-          description: 'Expert in Biology and Chemistry with a passion for laboratory experiments and scientific research, inspiring the next generation of scientists.',
-          image: '/images/avatar.png'
-        },
-        {
-          name: 'Mr. Muftawu Hussein',
-          position: 'ICT Teacher',
-          description: 'Literature enthusiast with excellent communication skills, fostering reading culture and effective writing among students.',
-          image: '/images/mufty.jpg'
-        },
-        {
-          name: 'Mr. Abdallah Abdul Rahim',
-          position: 'History Teacher',
-          description: 'Passionate historian who brings past events to life, helping students understand their heritage and develop critical thinking skills.',
-          image: '/images/abdullah.jpg'
-        }
+      {
+        name: 'Sheikh Mohammed Ibrahim',
+        position: 'Director',
+        description: 'With over 15 years in educational leadership, Sheikh Mohammed brings vision and innovation to guide our school towards academic excellence and holistic student development.',
+        image: '/images/Director1.jpg'
+      },
+      {
+        name: 'Sheikh Suleman Ibrahim',
+        position: 'Head of Abrem Branch',
+        description: 'A dedicated educator with expertise in curriculum development and student affairs, ensuring our academic programs meet the highest standards of quality education.',
+        image: '/images/MallamSule.jpg'
+      },
+      {
+        name: 'Sheikh Yahya Ibrahim',
+        position: 'Head of Adukrom Branch',
+        description: 'Passionate about student welfare and academic support, Mrs. Issah oversees pastoral care and creates a nurturing environment for all students to thrive.',
+        image: '/images/MallamYahya.jpg'
+      },
+      {
+        name: 'Mallam Abdul Mumin Jibreel',
+        position: 'Imaam',
+        description: 'Our spiritual guide who provides Islamic education and moral guidance, helping students develop strong character and values alongside their academic pursuits.',
+        image: '/images/ustaa.jpg'
+      }
     ];
 
     const nonTeachingStaff = [
-        {
-          name: 'Mrs. Bilkiss Ahmed',
-          position: 'Librarian',
-          description: 'Dedicated library manager who ensures students have access to quality educational resources and maintains an conducive learning environment.',
-          image: '/images/avatar.png'
-        },
-        {
-          name: 'Mr. Joseph Mensah',
-          position: 'School Accountant',
-          description: 'Professional accountant managing school finances with transparency and ensuring proper allocation of educational resources.',
-          image: '/images/avatar.png'
-        },
-        {
-          name: 'Mrs. Grace Boateng',
-          position: 'School Nurse',
-          description: 'Qualified healthcare professional providing medical care and health education to ensure the wellbeing of all students and staff.',
-          image: '/images/avatar.png'
-        },
-        {
-          name: 'Mr. Emmanuel Tetteh',
-          position: 'Security Officer',
-          description: 'Experienced security personnel ensuring the safety and security of the school premises, students, and staff throughout the day.',
-          image: '/images/avatar.png'
-        }
+      {
+        name: 'Sheikh Mohammed Ibrahim',
+        position: 'Director',
+        description: 'With over 15 years in educational leadership, Sheikh Mohammed brings vision and innovation to guide our school towards academic excellence and holistic student development.',
+        image: '/images/Director1.jpg'
+      },
+      {
+        name: 'Sheikh Suleman Ibrahim',
+        position: 'Head of Abrem Branch',
+        description: 'A dedicated educator with expertise in curriculum development and student affairs, ensuring our academic programs meet the highest standards of quality education.',
+        image: '/images/MallamSule.jpg'
+      },
+      {
+        name: 'Sheikh Yahya Ibrahim',
+        position: 'Head of Adukrom Branch',
+        description: 'Passionate about student welfare and academic support, Mrs. Issah oversees pastoral care and creates a nurturing environment for all students to thrive.',
+        image: '/images/MallamYahya.jpg'
+      },
+      {
+        name: 'Mallam Abdul Mumin Jibreel',
+        position: 'Imaam',
+        description: 'Our spiritual guide who provides Islamic education and moral guidance, helping students develop strong character and values alongside their academic pursuits.',
+        image: '/images/ustaa.jpg'
+      }
     ];
 
     return (
         <>
           {/* Staff Overview Section */}
-          <section className="py-5" style={{backgroundColor: '#e9ecef'}}>
+          <section className="py-5" style={{backgroundColor: '#e8f5e9'}}>
             <Container className="px-4 px-md-0">
-              <h2 className="text-center mb-3" style={{background: 'linear-gradient(to right, transparent, var(--school-blue), transparent) no-repeat bottom', backgroundSize: '80% 3px', paddingBottom: '15px', width: 'fit-content', margin: '0 auto 1rem auto'}}>Our Staff</h2>
+              <h2 className="text-center mb-3" style={{background: 'linear-gradient(to right, transparent, var(--school-blue), transparent) no-repeat bottom', backgroundSize: '80% 3px', paddingBottom: '15px', width: 'fit-content', margin: '0 auto 1rem auto'}}>Staff</h2>
               <p className="text-center text-muted mb-5 px-3">
                 Meet our dedicated team of professionals committed to providing quality education and comprehensive support for student success.
               </p>
@@ -123,7 +123,7 @@ export default function StaffPage() {
                           }}
                         />
                         <h5 className="mb-1">{member.name}</h5>
-                        <p className="text-primary mb-3">{member.position}</p>
+                        <p className="mb-3" style={{ color: '#D4AF37' }}>{member.position}</p>
                         <p className="text-muted small">{member.description}</p>
                       </Card.Body>
                     </Card>
@@ -134,7 +134,7 @@ export default function StaffPage() {
           </section>
 
           {/* Teaching Staff Section */}
-          <section className="py-5">
+          <section className="py-5" style={{backgroundColor: '#e8f5e9'}}>
             <Container className="px-4 px-md-0">
               <h2 className="text-center mb-3" style={{background: 'linear-gradient(to right, transparent, var(--school-blue), transparent) no-repeat bottom', backgroundSize: '80% 3px', paddingBottom: '15px', width: 'fit-content', margin: '0 auto 1rem auto'}}>Teaching Staff</h2>
               <p className="text-center text-muted mb-5 px-3">
@@ -160,7 +160,7 @@ export default function StaffPage() {
                           }}
                         />
                         <h5 className="mb-1">{teacher.name}</h5>
-                        <p className="text-primary mb-3">{teacher.position}</p>
+                        <p className="mb-3" style={{ color: '#D4AF37' }}>{teacher.position}</p>
                         <p className="text-muted small">{teacher.description}</p>
                       </Card.Body>
                     </Card>
@@ -171,7 +171,7 @@ export default function StaffPage() {
           </section>
 
           {/* Non-Teaching Staff Section */}
-          <section className="py-5" style={{backgroundColor: '#e9ecef'}}>
+          <section className="py-5">
             <Container className="px-4 px-md-0">
               <h2 className="text-center mb-3" style={{background: 'linear-gradient(to right, transparent, var(--school-blue), transparent) no-repeat bottom', backgroundSize: '80% 3px', paddingBottom: '15px', width: 'fit-content', margin: '0 auto 1rem auto'}}>Non-Teaching Staff</h2>
               <p className="text-center text-muted mb-5 px-3">
@@ -197,7 +197,7 @@ export default function StaffPage() {
                           }}
                         />
                         <h5 className="mb-1">{staff.name}</h5>
-                        <p className="text-primary mb-3">{staff.position}</p>
+                        <p className="mb-3" style={{ color: '#D4AF37' }}>{staff.position}</p>
                         <p className="text-muted small">{staff.description}</p>
                       </Card.Body>
                     </Card>

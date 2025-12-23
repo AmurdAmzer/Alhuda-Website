@@ -54,13 +54,13 @@ export default function Home() {
       name: 'Sheikh Suleman Ibrahim',
       position: 'Head of Abrem Branch',
       description: 'A dedicated educator with expertise in curriculum development and student affairs, ensuring our academic programs meet the highest standards of quality education.',
-      image: '/images/Mallamsule.jpg'
+      image: '/images/MallamSule.jpg'
     },
     {
       name: 'Sheikh Yahya Ibrahim',
       position: 'Head of Adukrom Branch',
       description: 'Passionate about student welfare and academic support, Mrs. Issah oversees pastoral care and creates a nurturing environment for all students to thrive.',
-      image: '/images/Mallamyahya.jpg'
+      image: '/images/MallamYahya.jpg'
     },
     {
       name: 'Mallam Abdul Mumin Jibreel',

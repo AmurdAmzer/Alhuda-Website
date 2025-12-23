@@ -48,19 +48,19 @@ export default function Home() {
       name: 'Sheikh Mohammed Ibrahim',
       position: 'Director',
       description: 'With over 15 years in educational leadership, Sheikh Mohammed brings vision and innovation to guide our school towards academic excellence and holistic student development.',
-      image: '/images/director1.jpg'
+      image: '/images/Director1.jpg'
     },
     {
       name: 'Sheikh Suleman Ibrahim',
       position: 'Head of Abrem Branch',
       description: 'A dedicated educator with expertise in curriculum development and student affairs, ensuring our academic programs meet the highest standards of quality education.',
-      image: '/images/mallamsule.jpg'
+      image: '/images/Mallamsule.jpg'
     },
     {
       name: 'Sheikh Yahya Ibrahim',
       position: 'Head of Adukrom Branch',
       description: 'Passionate about student welfare and academic support, Mrs. Issah oversees pastoral care and creates a nurturing environment for all students to thrive.',
-      image: '/images/mallamyahya.jpg'
+      image: '/images/Mallamyahya.jpg'
     },
     {
       name: 'Mallam Abdul Mumin Jibreel',

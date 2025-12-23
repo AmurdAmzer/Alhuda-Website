@@ -7,33 +7,33 @@ export default function StudentsPage() {
         {
           name: 'Ashraf Muftawu',
           position: 'Boys Prefect',
-          description: '2022/2023',
-          image: '/images/ashraf.jpg'
+          description: '2025/2026',
+          image: '/images/Placeholder.jpg'
         },
         {
           name: 'Abubakar Siddick Mohammed',
           position: 'Assist Boys Prefect' ,
-          description: '2022/2023',
-          image: '/images/sidik.jpg'
+          description: '2025/2026',
+          image: '/images/Placeholder.jpg'
         },
         {
           name: 'Suwaiba Osman',
           position: 'Main Girls Prefect',
-          description: '2022/2023',
-          image: '/images/suwaiba.jpg'
+          description: '2025/2026',
+          image: '/images/Placeholder.jpg'
         },
         {
           name: 'Hawa Kabiru',
           position: 'Assist Girls Prefect',
-          description: '2022/2023',
-          image: '/images/hawa.jpeg'
+          description: '2025/2026',
+          image: '/images/Placeholder.jpg'
         }
     ];
 
     return (
         <>
           {/* Students Section */}
-          <section className="py-5" style={{backgroundColor: '#e9ecef'}}>
+          <section className="py-5" style={{backgroundColor: '#e8f5e9'}}>
             <Container className="px-4 px-md-0">
               <h2 className="text-center mb-3" style={{background: 'linear-gradient(to right, transparent, var(--school-blue), transparent) no-repeat bottom', backgroundSize: '80% 3px', paddingBottom: '15px', width: 'fit-content', margin: '0 auto 1rem auto'}}>Student Leadership</h2>
               <p className="text-center text-muted mb-5 px-3">
@@ -48,8 +48,8 @@ export default function StudentsPage() {
               <Row className="align-items-stretch">
                 <Col lg={6} md={12} className="mb-4 mb-lg-0 order-2 order-lg-1">
                     <img 
-                        src="/images/src.png" 
-                        alt="About Ibadur Rahman Academy" 
+                        src="/images/Students.jpg" 
+                        alt="About Markazul Huda" 
                         className="rounded src-image"
                         style={{ 
                         width: '100%', 
@@ -69,7 +69,7 @@ export default function StudentsPage() {
                           Students&#39; Representative Council (SRC)
                           </h2>
                           <p className="mb-2 text-muted">
-                          About Ibadur Rahman Academy SRC
+                          About Markazul Huda SRC
                           </p>
                           <p className="mb-2 text-muted">
                           The SRC was formed in the year 2021 when the first sets of students were admitted into the school. The SRC is the highest student leadership group.
@@ -91,11 +91,11 @@ export default function StudentsPage() {
           </section>
 
           {/* Prefects Section */}
-          <section className="py-5" style={{backgroundColor: '#e9ecef'}}>
+          <section className="py-5" style={{backgroundColor: '#e8f5e9'}}>
             <Container className="px-4 px-md-0">
               <h2 className="text-center mb-3" style={{background: 'linear-gradient(to right, transparent, var(--school-blue), transparent) no-repeat bottom', backgroundSize: '80% 3px', paddingBottom: '15px', width: 'fit-content', margin: '0 auto 1rem auto'}}>Student Leaders</h2>
               <p className="text-center text-muted mb-5 px-3">
-              Below is the list of School Prefects for 2022/2023 academic year.
+              Below is the list of School Prefects for 2025/2026 academic year.
               </p>
               <Row>
                 {prefects.map((member, index) => (
@@ -117,7 +117,7 @@ export default function StudentsPage() {
                           }}
                         />
                         <h5 className="mb-1">{member.name}</h5>
-                        <p className="text-primary mb-3">{member.position}</p>
+                        <p className="mb-3" style={{ color: '#D4AF37' }}>{member.position}</p>
                         <p className="text-muted small">{member.description}</p>
                       </Card.Body>
                     </Card>

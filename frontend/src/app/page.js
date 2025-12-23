@@ -136,7 +136,7 @@ export default function Home() {
       </section>
 
       {/* Our Departments Section */}
-      <section className="py-5" >
+      <section className="py-5" style={{ backgroundColor: '#e8f5e9' }}>
         <Container className="px-4 px-md-0">
           <h2 className="text-center mb-3" style={{background: 'linear-gradient(to right, transparent, var(--school-blue), transparent) no-repeat bottom', backgroundSize: '80% 3px', paddingBottom: '15px', width: 'fit-content', margin: '0 auto 1rem auto'}}>Departments</h2>
           <p className="text-center text-muted mb-5 px-3">
@@ -216,7 +216,7 @@ export default function Home() {
       </section>
 
       {/* Founders Section */}
-      <section className="py-5">
+      <section className="py-5" style={{ backgroundColor: '#e8f5e9' }}>
         <Container className="px-4 px-md-0">
         <h2 className="text-center mb-3" style={{background: 'linear-gradient(to right, transparent, var(--school-blue), transparent) no-repeat bottom', backgroundSize: '80% 3px', paddingBottom: '15px', width: 'fit-content', margin: '0 auto 1rem auto'}}>Founders</h2>
           <p className="text-center text-muted mb-5 px-3">

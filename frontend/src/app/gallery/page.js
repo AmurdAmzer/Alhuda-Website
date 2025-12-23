@@ -26,18 +26,18 @@ function GalleryContent() {
       type: 'image',
       category: 'news',
       title: 'Certificates for 2024 Candidates Available',
-      description: 'The Ibadur Rahman Academy administration wishes to inform all 2024 graduates that their official certificates are ready for collection at the school premises. Come with a valid ID from Monday to Friday 9:00am - 3:00pm.',
-      thumbnail: '/images/WASSCEResults2024.jpg',
-      fullSize: '/images/WASSCEResults2024.jpg'
+      description: 'The Markazul Huda administration wishes to inform all 2024 graduates that their official certificates are ready for collection at the school premises. Come with a valid ID from Monday to Friday 9:00am - 3:00pm.',
+      thumbnail: '/images/Graduation1.jpg',
+      fullSize: '/images/Graduation1.jpg'
     },
     {
       id: 2,
       type: 'image',
       category: 'news',
       title: 'SRC Week Celebration',
-      description: 'Welcome to Ibadur Rahman School, where we nurture curiosity and foster a love for learning. Join us in our mission to create a supportive environment that inspires students to achieve their full potential.',
-      thumbnail: '/images/news1.jpg',
-      fullSize: '/images/news1.jpg'
+      description: 'Welcome to Markazul Huda School, where we nurture curiosity and foster a love for learning. Join us in our mission to create a supportive environment that inspires students to achieve their full potential.',
+      thumbnail: '/images/Graduation2.jpg',
+      fullSize: '/images/Graduation2.jpg'
     },
     {
       id: 3,
@@ -45,8 +45,8 @@ function GalleryContent() {
       category: 'news',
       title: 'Inter-House Football Match',
       description: 'Annual sports competition between school houses',
-      thumbnail: '/images/news3.jpg',
-      fullSize: '/images/news3.jpg'
+      thumbnail: '/images/Iftaar1.jpg',
+      fullSize: '/images/Iftaar1.jpg'
     },
     {
       id: 4,
@@ -113,13 +113,13 @@ function GalleryContent() {
   return (
     <>
       {/* Gallery Header */}
-      <section className="py-5" style={{backgroundColor: '#e9ecef'}}>
+      <section className="py-5" style={{backgroundColor: '#e8f5e9'}}>
         <Container>
           <h2 className="text-center mb-3" style={{background: 'linear-gradient(to right, transparent, var(--school-blue), transparent) no-repeat bottom', backgroundSize: '80% 3px', paddingBottom: '15px', width: 'fit-content', margin: '0 auto 1rem auto'}}>
             News & Gallery
           </h2>
           <p className="text-center text-muted mb-5 px-3">
-            Explore moments that capture the spirit of academic excellence, vibrant campus life, and memorable events at Ibadur Rahman Academy.
+            Explore moments that capture the spirit of academic excellence, vibrant campus life, and memorable events at Markazul Huda.
           </p>
         </Container>
       </section>

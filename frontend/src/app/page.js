@@ -85,7 +85,7 @@ export default function Home() {
           <Row className="align-items-center">
             <Col lg={6} md={12} className="mb-4 mb-lg-0 order-2 order-lg-1">
               <Image 
-                src="/images/director.jpg" 
+                src="/images/Director.jpg" 
                 alt="About Markazul Huda" 
                 width={500}  
                 height={1000}

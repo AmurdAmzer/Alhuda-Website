@@ -59,7 +59,7 @@ export default function SearchBar({ onSearchFocus, onNavigate }) {
     { title: 'BECE Requirements', type: 'info', url: '/contact-us', description: 'Basic Education Certificate Examination requirements' },
     { title: 'Boarding Facilities', type: 'info', url: '/contact-us', description: 'Student accommodation and dormitory information' },
     { title: 'School Fees', type: 'info', url: '/contact-us', description: 'Information about tuition and fees' },
-    { title: 'Location', type: 'info', url: '/contact-us', description: 'Buobai, Asokore Mampong Municipality, Kumasi' }
+    { title: 'Location', type: 'info', url: '/contact-us', description: 'Adukrom, Asokore Mampong Municipality, Kumasi' }
   ]
 
   // Search function

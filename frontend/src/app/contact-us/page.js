@@ -350,7 +350,7 @@ export default function ContactUsPage() {
                   <div className="text-center">
                     <h6 className="mb-1" style={{ color: 'var(--school-blue)' }}>Find Us</h6>
                     <p className="text-muted small mb-0">
-                      Buobai, Asokore Mampong Municipality, Kumasi, Ashanti Region
+                      Adukrom, Asokore Mampong Municipality, Kumasi, Ashanti Region
                     </p>
                   </div>
                 </Card.Footer>

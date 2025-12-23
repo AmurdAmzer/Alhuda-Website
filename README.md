@@ -1,6 +1,6 @@
-# Ibadur Rahman Academy Website
+# Markazul Huda Website
 
-A modern, responsive website for Ibadur Rahman Academy built with Next.js 14 and React-Bootstrap.
+A modern, responsive website for Markazul Huda built with Next.js 14 and React-Bootstrap.
 
 ##  Table of Contents
 
@@ -20,7 +20,7 @@ A modern, responsive website for Ibadur Rahman Academy built with Next.js 14 and
 
 ##  About
 
-Ibadur Rahman Academy's official website serves as a comprehensive digital platform for students, parents, and prospective families. The website showcases the academy's commitment to excellence in  education, providing easy access to information about programs, events, and school activities.
+Markazul Huda's official website serves as a comprehensive digital platform for students, parents, and prospective families. The website showcases the academy's commitment to excellence in  education, providing easy access to information about programs, events, and school activities.
 
 ###  Key Objectives
 
@@ -71,7 +71,7 @@ Ibadur Rahman Academy's official website serves as a comprehensive digital platf
 1. **Clone the repository**
    ```bash
    git clone https://github.com/amurdamzer/IbassWeb-Redesign.git
-   cd ibadur-rahman-academy
+   cd Markazul-Huda
    ```
 
 2. **Navigate to frontend directory**
@@ -295,13 +295,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-**Ibadur Rahman Academy**
-- Website: [www.ibadurrahman.edu.gh](https://www.ibadurrahman.edu.gh)
-- Email: info@ibadurrahman.edu.gh
+**Markazul Huda**
+- Website: [www.markazulhuda.edu.gh](https://www.markazulhuda.edu.gh)
+- Email: info@markazulhuda.edu.gh
 - Phone: +233 XX XXX XXXX
 - Location: Ghana
 
 **Development Team**
-- ICT Department, Ibadur Rahman Academy
+- ICT Department, Markazul Huda
 
 ---

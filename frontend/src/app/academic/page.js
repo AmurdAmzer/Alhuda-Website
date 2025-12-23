@@ -28,7 +28,7 @@ export default function DepartmentPage() {
                 <Card.Body className="p-4">
                     <div className="mb-3" style={{ fontSize: '3rem' }}>🔬</div>
                     <h5 className="mb-3">Monday to Friday</h5>
-                    <p className="text-muted small">This is designed for students who are not able to attend the Monday to Friday section because their parents sent them to different schools.</p>
+                    <p className="text-muted small">Arabic and English Section which has the students studying Arabic and Islamic Studies in the morning, and circular education after.</p>
                 </Card.Body>
                 </Card>
             </Col>

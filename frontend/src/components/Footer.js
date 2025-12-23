@@ -116,7 +116,7 @@ export default function Footer() {
                 border: '2px solid rgba(255,255,255,0.1)'
               }}>
                 <iframe
-                  src="https://maps.app.goo.gl/jXhYqXGrwXhWVJ6U6?g_st=ic"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7925.217819152831!2d-1.5906571999999999!3d6.69526485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdb942fa5751e05%3A0x9054a5ee6b0b9241!2sAdukrom%2C%20Kumasi%2C%20Ghana!5e0!3m2!1sen!2sus!4v1766511110962!5m2!1sen!2sus"
                   width="100%"
                   height="120"
                   style={{ border: 0, filter: 'grayscale(1) opacity(0.8)' }}

@@ -7,7 +7,6 @@ import { usePathname } from 'next/navigation'
 import Image from 'next/image'
 import { useState } from 'react'
 import SearchBar from './SearchBar'
-import logo from '/public/images/logo.jpg' // static import
 
 export default function Header() {
   const pathname = usePathname()
@@ -36,13 +35,14 @@ export default function Header() {
     >
       <Container>
         <Navbar.Brand as={Link} href="/" className="d-flex align-items-center gap-2">
-          <Image
-            src={logo}
-            alt='MARKAZUL HUDA Logo'
-            width={40}
-            height={40}
-            style={{ objectFit: 'contain', borderRadius: '50%' }}
-            />
+        <Image
+          src="/images/logo.jpg"
+          alt='MARKAZUL HUDA Logo'
+          width={40}
+          height={40}
+          style={{ objectFit: 'contain', borderRadius: '50%' }}
+        />
+
             <span style={{ color: '#238b45', fontWeight: 'bold' }}>
           MARKAZUL HUDA </span>
         </Navbar.Brand>

@@ -1,7 +1,6 @@
 'use client'
 
 import { Container, Row, Col } from 'react-bootstrap'
-import logo from '/public/images/logo.jpg'
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -9,7 +8,7 @@ export default function Footer() {
   const pageLinks = [
     { name: 'Home', url: '/' },
     { name: 'About Us', url: '/about-us' },
-    { name: 'Academic', url: '/academic' },
+    { name: 'Departments', url: '/academic' },
     { name: 'Staff', url: '/staff' },
     { name: 'Students', url: '/students' },
     { name: 'Gallery', url: '/gallery' },
@@ -24,13 +23,14 @@ export default function Footer() {
             {/* Logo and Contact Info */}
             <Col lg={4} md={6} className="mb-4">
               <div className="d-flex align-items-center gap-2 mb-3">
-                <Image
-                  src={logo}
-                  alt='Markazul Huda Logo'
-                  width={40}
-                  height={40}
-                  style={{ objectFit: 'contain', borderRadius: '50%' }}
-                />
+              <Image
+                src="/images/logo.jpg"
+                alt="Markazul Huda Logo"
+                width={40}
+                height={40}
+                style={{ objectFit: 'contain', borderRadius: '50%' }}
+              />
+
                 <span style={{ color: 'white', fontWeight: 'bold', fontSize: '1.1rem' }}>
                   Markazul Huda
                 </span>
